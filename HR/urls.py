@@ -15,7 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from hrapp import views
+
 
 urlpatterns = [
+    # Path to access Django admin
     path('admin/', admin.site.urls),
+    # Path to render homepage
+    path('', views.home, name="home"),
+    # Path to render opportunities
+    path('opportunities', views.opportunities, name="opportunities")
 ]
+    

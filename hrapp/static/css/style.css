@@ -1,0 +1,68 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url("/static/images/hero.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* --------------------------- FOOTER*/
+.wrapper{
+    min-height: 100%;
+    margin-bottom: -95px;
+}
+
+#footer,
+.push{
+    height: 50px;
+}
+
+/* --------------------------- OTHER PARTS*/
+
+#navbar-content{
+    text-align: center;
+    color: #fff;
+    margin-left: 25px;
+}
+
+
+.cpr-text {
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+}
+.cpr-text > a{
+    text-decoration: none;
+}
+
+.nav-btn{
+    margin-right: 25px;
+    font-size: 25px;
+}
+/* -----------------------------Block typed effect and button job */
+.block-position {
+    width: 80%;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* -------------------------------Btn Job Opportunities */
+#btn-job{
+    width: 270px;
+    font-size: 22px;
+    border-radius: 30px;
+    margin-bottom: -50px;
+}
+
+.opportunities-container {
+    width: 80%;
+}

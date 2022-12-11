@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+<!-- Block Title -->
+{% block title %} Opportunities {% endblock title %}
+
+<!-- Block Navbar content -->
+{% block navbar-content %} 
+    <i class="text-warning fas fa-code"></i>&nbsp;&nbsp; Opportunities
+{% endblock navbar-content %}
+
+<!-- Link to navigate between pages -->
+{% block link %}
+    <a href="{% url 'home' %}" class="nav-btn">
+        <i class="text-warning fas fa-angle-double-left"></i>
+    </a>   
+{% endblock link %}
+
+<!-- Page Content -->
+{% block content %}
+<div class="container mt-4 opportunities-container">
+    <div class="jistify-content-center align-items-center row">
+        <h6 class="btn btn-warning">
+            <strong>AVAILABLE JOB OPPORTUNITIES</strong>
+        </h6>
+    </div>
+</div>
+{% endblock content %}
